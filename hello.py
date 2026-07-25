@@ -1,7 +1,14 @@
-print("Hello, AI Engineer!")
+x = 10
+y = 20
+sum = x + y
+print(sum)
 
-name = "Ruma"
-role = "AI Engineer"
 
-print(name)
-print(role)
+name = "Rum"
+age = 20
+print(name, age)
+
+
+print ("I am learning python")
+
+print("It is awesome!")
