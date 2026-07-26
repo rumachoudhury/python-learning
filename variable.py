@@ -1,4 +1,12 @@
 
 name = "Ruma"
 
-print(name)
+# print(name)
+
+
+age = 40
+
+# print(age)
+
+
+print(name, age)
