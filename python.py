@@ -1,3 +1,3 @@
-print("I like", end="learn")
+print("I ", end="like")
 
-print("Learn something everyday")
+print(" to learn something everyday") 
