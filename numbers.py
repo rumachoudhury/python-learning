@@ -49,3 +49,14 @@ z = -35.59
 print(x, type(x))
 print(y, type(y))
 print(z, type(z))
+
+
+# ============================================
+# Complex:
+x = 3+5j
+y = 5j
+z = -5j
+
+print(x, type(x))
+print(y, type(y))
+print(z, type(z))
