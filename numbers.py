@@ -26,9 +26,8 @@ print(type(y))
 print(type(z))
 
 
-
+# ============================================
 # Integers:
-
 x = 1
 y = 35656222554887711
 z = -3255522
@@ -39,3 +38,14 @@ print(z, type(z))
 
 # type(x) → tells you what kind of data it is
 # x, type(x) → tells you the value + what kind of data it is
+
+
+# ============================================
+# Floats:
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(x, type(x))
+print(y, type(y))
+print(z, type(z))
