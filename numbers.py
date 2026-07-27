@@ -33,6 +33,9 @@ x = 1
 y = 35656222554887711
 z = -3255522
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(x, type(x))
+print(y, type(y))
+print(z, type(z))
+
+# type(x) → tells you what kind of data it is
+# x, type(x) → tells you the value + what kind of data it is
