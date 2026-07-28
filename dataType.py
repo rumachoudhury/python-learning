@@ -20,9 +20,12 @@ fruits = ("apple", "banana", "orange")
 print(type(fruits))
 
 
-# A dictionary needs every item to have a key
+# A dictionary(dict) needs every item to have a key
 fruits = {"fruit1":"apple", "fruit2":"banana", "fruit3":"orange"}
 print(type(fruits))
+
+student = {"name" : "John", "age" : 30}
+print(type(student))
 
 
 # Create set
@@ -33,4 +36,4 @@ print(type(fruits))
 # []----> creates a list.
 # ()----> creates a tuple.
 # Set need----> values only
-# Dictionary need----> key and value
+# Dictionary(dict) need----> key and value
