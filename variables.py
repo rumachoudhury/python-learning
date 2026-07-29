@@ -98,3 +98,34 @@ y = "am "
 z = "learning Python"
 
 print(x + y + z)
+
+
+
+# ================================================
+# For numbers, the + character works as a mathematical operator:
+x = 5
+y = 10
+
+print(x + y) #output will be 15
+
+
+
+# When you try to combine a string and a number with +,
+# Python will give you a TypeError:
+
+x = 5
+y = "John"
+
+print(x + y) #output error
+
+
+
+# The best way to output multiple variables is to separate them with commas.
+# Commas support different data types:
+
+x = 5
+y = "John"
+
+print(x, y) #output will be 5 John
+
+# ================================================
