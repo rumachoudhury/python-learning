@@ -72,3 +72,29 @@ x = y = z = "Orange"
 
 # or
 print("Multiple values:", x, y, z)
+
+# ================================================
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+# ================================================
+# In the print() function, you output multiple variables, separated by a comma:
+x = "Python"
+y = "is"
+z = "awesome"
+
+print(x, y, z)
+
+
+# ================================================
+# You can also use the + operator to output multiple variables:
+# And If you want spaces between words, add spaces inside the strings:
+x = "I "
+y = "am "
+z = "learning Python"
+
+print(x + y + z)
