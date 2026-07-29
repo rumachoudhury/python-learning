@@ -56,3 +56,19 @@ my_variable_name = "John"
 x, y, z = "Orange", "Apple", "Banana"
 
 print(x, y, z)
+
+
+# ================================================
+# One Value to Multiple Variables
+# And you can assign the same value to multiple variables in one line:
+
+x = y = z = "Orange"
+# print(x)
+# print(y)
+# print(z)
+
+# or
+# print(x, y, z)
+
+# or
+print("Multiple values:", x, y, z)
