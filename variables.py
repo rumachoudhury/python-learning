@@ -36,15 +36,23 @@ my_variable_name = "John"
 
 # ================================================
 # Legal variable names:
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
+# myvar = "John"
+# my_var = "John"
+# _my_var = "John"
+# myVar = "John"
+# MYVAR = "John"
+# myvar2 = "John"
 
 # ================================================
 # Illegal variable names:
-2myvar = "John"
-my-var = "John"
-my var = "John"
+# 2myvar = "John"
+# my-var = "John"
+# my var = "John"
+
+# ================================================
+# Many Values to Multiple Variables:
+# Python allows you to assign values to multiple variables in one line:
+
+x, y, z = "Orange", "Apple", "Banana"
+
+print(x, y, z)
