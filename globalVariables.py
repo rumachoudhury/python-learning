@@ -41,3 +41,18 @@ def myfunc():
 myfunc()
 
 print("python is " + x)
+
+
+# ===================================================
+# Also, use the global keyword if you want to change a global variable inside a function.
+# To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+
+x = "fantastic"
+
+def myfunc():
+    global x
+    x = "fun" #The value changes from fantastic to fun
+
+myfunc()
+
+print("Learning python is " + x)  
