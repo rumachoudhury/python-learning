@@ -22,7 +22,22 @@ x = "awesome"
 
 def myfunc():
     x = "fantastic"
-    print("Python is" + x)
+    print("Python is " + x)
 
 # now call the function
+
 myfunc() 
+
+
+
+# ===================================================
+# To create a global variable inside a function, you can use the global keyword.
+# If you use the global keyword, the variable belongs to the global scope:
+
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("python is " + x)
