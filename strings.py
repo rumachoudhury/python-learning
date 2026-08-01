@@ -87,3 +87,9 @@ text = "I like to learn something new everyday"
 print ("learn" in text)
 
 print ("Python" in text)
+
+
+# Print only if "learn" is present:
+
+if "learn" in text:
+    print("Yes, 'learn' is present.")
