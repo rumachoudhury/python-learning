@@ -54,5 +54,15 @@ print(a[1])
 b = "Welcome to python"
 print(b[6])
 
+
 # ================================================
-Looping 
+# Looping Through a String
+
+for x in "banana" :
+
+    print(x)
+
+
+for x in "Learning python is fun" :
+
+    print(x)
