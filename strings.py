@@ -14,6 +14,7 @@ print('Hello')
 
 print("He is called 'Johnny'")
 print('He is called "Johnny"')
+print("My name is 'Ruma'")
 
 
 # ================================================
@@ -49,3 +50,9 @@ print(a)
 # Strings are Arrays
 a = "Hello, World!"
 print(a[1])
+
+b = "Welcome to python"
+print(b[6])
+
+# ================================================
+Looping 
