@@ -93,3 +93,7 @@ print ("Python" in text)
 
 if "learn" in text:
     print("Yes, 'learn' is present.")
+
+
+if "welcome" not in text :
+    print ("No, 'welcome' is not present")
