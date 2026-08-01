@@ -66,3 +66,12 @@ for x in "banana" :
 for x in "Learning python is fun" :
 
     print(x)
+
+
+# ================================================
+# String Length
+# To get the length of a string, use the len() function.
+
+a = "Ruma is a good girl"
+
+print(len(a)) #(The _ above represents a space.)
