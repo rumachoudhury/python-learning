@@ -75,3 +75,15 @@ for x in "Learning python is fun" :
 a = "Ruma is a good girl"
 
 print(len(a)) #(The _ above represents a space.)
+
+
+
+# ================================================ s
+# Check String
+# To check if a certain phrase or character is present in a string, we can use the keyword in.
+
+text = "I like to learn something new everyday"
+
+print ("learn" in text)
+
+print ("Python" in text)
