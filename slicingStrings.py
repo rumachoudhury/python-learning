@@ -4,6 +4,7 @@
 
 
 # =============================================
+
 # String:  H  e  l  l  o  ,     W  o  r  l  d  !
 # Index :  0  1  2  3  4  5  6  7  8  9 10 11 12
 # The slice:   b[2:5]
@@ -24,4 +25,24 @@ print(b[:5]) # Output: Hello
 
 # Get the characters from position 2, and all the way to the end:
 print(b[2:]) # Output: llo, world!
+
+# =============================================
+
+# Negative Indexing
+# Negative indexes count from the end of the string instead of the beginning.
+
+# Positive indexes:
+# H  e  l  l  o  ,     W  o  r  l  d  !
+#  0  1  2  3  4  5  6  7  8  9 10 11 12
+
+# Negative indexes:
+# H  e  l  l  o  ,     W  o  r  l  d  !
+# -13-12-11-10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+
+# -5 → o ✅ (start here)
+# -2 → d ❌ (stop before this)
+
+b = "Hello, World!"
+print(b[-5:-2]) # Output: orl
+
 # =============================================
