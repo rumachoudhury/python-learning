@@ -18,4 +18,10 @@ b= "Hello, world!"
 print(b[0:5]) # Output: Hello
 print(b[7:12]) # Output: world
 print(b[2:5]) # Output: llo
+
+# Get the characters from the start to position 5 (not included):
+print(b[:5]) # Output: Hello
+
+# Get the characters from position 2, and all the way to the end:
+print(b[2:]) # Output: llo, world!
 # =============================================
