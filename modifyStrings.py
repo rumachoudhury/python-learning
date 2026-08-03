@@ -31,4 +31,8 @@ print(text.split()) #output will be ['I', 'like', 'Python']
 text = "apple,banana,orange"
 print(text.split(",")) #output will be ['apple', 'banana', 'orange']
 
+
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+
 # .split() always returns a list. ✅
