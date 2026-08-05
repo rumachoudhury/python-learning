@@ -7,3 +7,10 @@ a = "Hello"
 b = "world"
 c = a + " " + b
 print(c) #output will be Hello world
+
+
+# Without the space:
+a = "Hello"
+b = "world"
+c = a + b
+print(c) #output will be Helloworld
