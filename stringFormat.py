@@ -1,13 +1,13 @@
 
 # As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
 
-age = 36
+# age = 36
 
 # This will be error
 
-txt = "My name is Ruma, I am " + age
+# txt = "My name is Ruma, I am " + age
 
-print(txt)
+# print(txt)
 
 # =============================================
 
@@ -16,9 +16,16 @@ print(txt)
 # To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
 
 age = 36
-
-txt = f"My name is Ruma, I am {age} years old"
-
+txt = f"My name is Ruma, I am {age} years old" 
 print(txt)
+
+# =============================================
+
+# Placeholders and Modifiers
+# A placeholder can contain variables, operations, functions, and modifiers to format the value.
+
+price = 60
+txt = f"The price is {price} Dollars"
+print (txt)
 
 # =============================================
