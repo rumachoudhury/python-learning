@@ -40,3 +40,9 @@ txt = f"The price is {price:.2f} dollars"
 print (txt)
 
 # =============================================
+
+# A placeholder can contain Python code, like math operations:
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+
+# =============================================
