@@ -36,10 +36,16 @@ print(bool(x))
 print(bool(y))
 
 # ============================================
-# Any list, tuple, set, and dictionary are True, except empty ones.
+# lists, tuples, sets, and dictionaries are generally True when they contain something, and False when they are empty.
 
 print(bool("abc"))
 print(bool(123))
 print(bool(["apple", "cherry", "banana"]))
 
 # ============================================
+# You can create functions that return a Boolean value:
+
+def myFunction(): #Create the function
+    return True #Return True
+
+print(myFunction()) #Call the function
