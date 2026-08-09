@@ -34,3 +34,12 @@ y = 15
 
 print(bool(x))
 print(bool(y))
+
+# ============================================
+# Any list, tuple, set, and dictionary are True, except empty ones.
+
+print(bool("abc"))
+print(bool(123))
+print(bool(["apple", "cherry", "banana"]))
+
+# ============================================
