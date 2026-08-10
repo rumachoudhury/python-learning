@@ -49,3 +49,13 @@ def myFunction(): #Create the function
     return True #Return True
 
 print(myFunction()) #Call the function
+
+# ============================================
+# Print "YES!" if the function returns True, otherwise print "NO!":
+def myFunction()
+   return True
+
+if myFunction():
+   print("YES")
+else:
+    print("No")
