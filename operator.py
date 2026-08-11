@@ -27,18 +27,77 @@ print(x // y)  # Floor division
 # ============================================
 # Assignment operators are used to assign values to variables:
 
+# Assignment operators are used to assign values to variables:
+
+# ============================================
+# 1. Assignment (=)
+
 x = 5
-print(x) # will be 5
+print(x)  # 5
 
-x +=3 # same as x = x + 3
-print(x)
 
-x -=3 # same as x = x - 3
-print(x)
+# ============================================
+# 2. Addition assignment (+=)
+
+x = 5
+x += 3  # same as x = x + 3
+print(x)  # 8
+
+
+# ============================================
+# 3. Subtraction assignment (-=)
+
+x = 5
+x -= 3  # same as x = x - 3
+print(x)  # 2
+
+
+# ============================================
+# 4. Multiplication assignment (*=)
+
+x = 5
+x *= 3  # same as x = x * 3
+print(x)  # 15
+
+
+# ============================================
+# 5. Division assignment (/=)
+
+x = 15
+x /= 3  # same as x = x / 3
+print(x)  # 5.0
+
+
+# ============================================
+# 6. Modulus assignment (%=)
+
+x = 15
+x %= 4  # same as x = x % 4
+print(x)  # 3
+
+
+# ============================================
+# 7. Exponentiation assignment (**=)
+
+x = 5
+x **= 3  # same as x = x ** 3
+print(x)  # 125
+
+
+# ============================================
+# 8. Floor division assignment (//=)
+
+x = 15
+x //= 4  # same as x = x // 4
+print(x)  # 3
+
 
 # What happens?
 # x = 5 → x is 5
 # x += 3 → 5 + 3 → 8
 # x -= 3 → 8 - 3 → 5
+# x *= 3 → 5 * 3 → 15
+
 
 # ============================================
+
