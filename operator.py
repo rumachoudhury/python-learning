@@ -93,11 +93,20 @@ print(x)  # 3
 
 
 # What happens?
-# x = 5 → x is 5
-# x += 3 → 5 + 3 → 8
-# x -= 3 → 8 - 3 → 5
-# x *= 3 → 5 * 3 → 15
-
+# x = 5       → x is 5
+# x += 3      → 5 + 3 → 8
+# x -= 3      → 8 - 3 → 5
+# x *= 3      → 5 * 3 → 15
+# x /= 3      → 15 / 3 → 5.0
+# x %= 4      → 15 % 4 → 3
+# x **= 3     → 5 ** 3 → 125
+# x //= 4     → 15 // 4 → 3
 
 # ============================================
 
+# walrus operator :=
+
+numbers = [1, 2, 3, 4, 5]
+
+if(count := len(numbers)) > 3: #len() means length
+    print(f"List has {count} elements")
