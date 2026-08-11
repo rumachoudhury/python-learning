@@ -22,3 +22,23 @@ print(x / y)   # Division
 print(x % y)   # Modulus
 print(x ** y)  # Exponentiation
 print(x // y)  # Floor division
+
+
+# ============================================
+# Assignment operators are used to assign values to variables:
+
+x = 5
+print(x) # will be 5
+
+x +=3 # same as x = x + 3
+print(x)
+
+x -=3 # same as x = x - 3
+print(x)
+
+# What happens?
+# x = 5 → x is 5
+# x += 3 → 5 + 3 → 8
+# x -= 3 → 8 - 3 → 5
+
+# ============================================
