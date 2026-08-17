@@ -9,3 +9,11 @@ Description:
 
 fruits = ["apple", "banana", "cherry"]
 print("orange" not in fruits)
+
+# ========================================
+
+text = "Hello World"
+
+print("H" in text)
+print("welcome" in text)
+print("World" in text)
