@@ -15,6 +15,6 @@ print("orange" not in fruits)
 text = "Hello World"
 
 print("H" in text)
-print("welcome" in text)
-print("World" in text)
-print("z" not in text)
+print("welcome" not in text)  #---->not in
+print("World" in text) #---->in   
+print("z" not in text) #---->not in
