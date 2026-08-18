@@ -60,3 +60,24 @@ The binary representation of 3 is 0011
 # Then the | operator compares the bits and returns 0111, which is 7 in decimal.
 
 # ============================================
+
+# The ^ operator compares each bit and sets it to 1 if only one of the bits is 1.
+# Otherwise, if both bits are 1 or both are 0, it is set to 0:
+
+print(6 ^ 3)
+
+The binary representation of 6 is 0110
+The binary representation of 3 is 0011
+
+# Then the ^ operator compares the bits and returns 0101,
+# which is 5 in decimal.
+
+
+# ^ gives 1 when the bits are different.
+#   0110   → 6
+# ^ 0011   → 3
+# ------
+#   0101   → 5
+
+
+# ============================================
