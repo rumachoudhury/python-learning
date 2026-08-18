@@ -25,7 +25,7 @@ The binary representation of 3 is 0011
 # Then the & operator compares the bits and returns 0010, which is 2 in decimal.
 
 
-# ============================================
+
 
 # Easy way to remember: & gives 1 only when both bits are 1.
 
