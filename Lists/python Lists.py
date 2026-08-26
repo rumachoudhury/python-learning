@@ -38,3 +38,21 @@ print(list3)
 # ['apple', 'banana', 'cherry']
 # [1, 5, 7, 9, 3]
 # [True, False, False]
+
+# ===================================================
+
+# Python list can contain multiple data types at the same time.
+
+list4 = ["abc", 34, True, 40, "male"]
+
+print(list4)
+
+# Data types in this list:
+# "abc" → String (str)
+# 34 → Integer (int)
+# True → Boolean (bool)
+# 40 → Integer (int)
+# "male" → String (str)
+
+# Output:
+# ['abc', 34, True, 40, 'male']
