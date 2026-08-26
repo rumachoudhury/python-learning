@@ -20,3 +20,21 @@ print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
+
+
+# ================================================
+
+# List Items - Data Types
+
+list1 = ["apple", "banana", "cherry"]   # Strings
+list2 = [1, 5, 7, 9, 3]                 # Integers
+list3 = [True, False, False]            # Booleans
+
+print(list1)
+print(list2)
+print(list3)
+
+# Output
+# ['apple', 'banana', 'cherry']
+# [1, 5, 7, 9, 3]
+# [True, False, False]
