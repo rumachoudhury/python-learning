@@ -13,3 +13,6 @@ for item in my_set:
 print("apple" in my_set)
 print("orange" in my_set)
 
+# Check if a specified value is NOT present
+print("apple" not in my_set)
+print("orange" not in my_set)
