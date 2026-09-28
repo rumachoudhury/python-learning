@@ -61,3 +61,40 @@ thisdict = {
 }
 
 print(thisdict)  # Accessing the entire dictionary to see all data types
+
+# 4 different value types:
+# "brand" → string
+# "electric" → boolean
+# "year" → integer
+# "colors" → list
+
+# ==========================================
+
+
+# The dict() constructor is another way to create a dictionary.
+
+# The dict() Constructor
+# You can use dict() to create a dictionary.
+
+thisdict = dict(name="John", age=36, country="Norway")
+
+print(thisdict)
+
+# Output:
+
+# {'name': 'John', 'age': 36, 'country': 'Norway'}
+# One thing to remember
+
+# These two approaches create dictionaries:
+
+# Using {}
+thisdict = {
+    "name": "John",
+    "age": 36,
+    "country": "Norway"
+}
+
+# and:
+
+# Using dict()
+thisdict = dict(name="John", age=36, country="Norway")
