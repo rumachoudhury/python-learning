@@ -13,6 +13,6 @@ print("orange" in my_frozenset)
 
 # Output will look something like:
 
-{'apple', 'banana', 'cherry'}
-True
-False
+# {'apple', 'banana', 'cherry'}
+# True
+# False
