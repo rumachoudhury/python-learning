@@ -56,3 +56,15 @@ if age >= 18:
   print("You are an adult")
   print("You can vote")
   print("You have full legal rights")
+
+
+#   =================================
+# Using Variables in Conditions
+# Boolean variables can be used directly in if statements without comparison operators.
+
+# Example
+# Using a boolean variable:
+
+is_logged_in = True
+if is_logged_in:
+  print("Welcome back!")
