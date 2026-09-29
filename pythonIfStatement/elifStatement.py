@@ -61,3 +61,26 @@ elif score >= 70:
   print("Grade: C")
 elif score >= 60:
   print("Grade: D")
+
+
+#   ===================================
+# Use elif when you have multiple mutually exclusive conditions to check. This is more efficient than using multiple separate if statements because Python stops checking once it finds a true condition.
+
+# Day of the week checker:
+
+day = 3
+
+if day == 1:
+  print("Monday")
+elif day == 2:
+  print("Tuesday")
+elif day == 3:
+  print("Wednesday")
+elif day == 4:
+  print("Thursday")
+elif day == 5:
+  print("Friday")
+elif day == 6:
+  print("Saturday")
+elif day == 7:
+  print("Sunday")
