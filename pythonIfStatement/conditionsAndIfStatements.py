@@ -44,3 +44,15 @@ a = 33
 b = 200
 if b > a:
   print("b is greater than a") # this will work correctly
+
+
+
+# =================================
+# Multiple Statements in If Block
+# You can have multiple statements inside an if block. All statements must be indented at the same level.
+
+age = 20
+if age >= 18:
+  print("You are an adult")
+  print("You can vote")
+  print("You have full legal rights")
