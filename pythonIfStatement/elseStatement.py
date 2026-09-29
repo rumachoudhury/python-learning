@@ -45,3 +45,23 @@ elif temperature > 10:
   print("It's cool outside")
 else:
   print("It's cold outside!")
+
+
+#   =============================
+#   =============================
+# Else as Fallback
+
+# else runs when none of the previous conditions are True.
+
+# It is useful for validation, errors, and default actions.
+
+username = "Emil"
+if len(username) > 0:
+    print(f"Welcome, {username}!")
+else:
+    print("Error: Username cannot be empty")
+
+
+# if → check condition
+
+# else → fallback if condition is False
