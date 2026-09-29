@@ -25,3 +25,22 @@ if b > a:
 number = 15
 if number > 0:
   print("The number is positive")
+
+
+
+#   ========================
+# Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+
+# ❌ If statement, without indentation 
+a = 33
+b = 200
+if b > a:
+print("b is greater than a") # you will get an error
+
+
+# ✅ If statement, with proper indentation
+
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a") # this will work correctly
