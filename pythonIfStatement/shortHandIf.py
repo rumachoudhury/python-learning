@@ -32,3 +32,13 @@ a = 10
 b = 20
 bigger = a if a > b else b
 print("Bigger is", bigger)
+
+# # ====================================
+# Multiple Conditions on One Line
+# You can chain conditional expressions, but keep it short so it stays readable:
+
+
+# One line, three outcomes:
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
