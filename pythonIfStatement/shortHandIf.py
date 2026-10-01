@@ -21,3 +21,14 @@ if a > b: print("a is greater than b")
 a = 2
 b = 330
 print("A") if a > b else print("B") # One-line if/else statement
+
+# ================================
+# Assign a Value With If ... Else
+# You can also use a one-line if/else to choose a value and assign it to a variable:
+
+
+# Example
+a = 10
+b = 20
+bigger = a if a > b else b
+print("Bigger is", bigger)
