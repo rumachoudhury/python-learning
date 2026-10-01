@@ -42,3 +42,22 @@ print("Bigger is", bigger)
 a = 330
 b = 330
 print("A") if a > b else print("=") if a == b else print("B")
+
+# =================================
+# Python — Setting a Default Value
+username = ""
+
+display_name = username if username else "Guest"
+
+print("Welcome,", display_name)
+# Output
+# Welcome, Guest
+# 🧠 Easy meaning
+# username if username else "Guest"
+
+# Means:
+
+# If username has a value → use it.
+# If it is empty → use "Guest".
+
+# Here username = "" is empty, so Python uses "Guest".
