@@ -54,3 +54,23 @@ a = 33
 b = 200
 if not a > b:
   print("a is NOT greater than b")
+
+# ======================================
+# Combining Multiple Operators
+# You can combine multiple logical operators in a single expression. Python evaluates not first, then and, then or.
+
+# Combining and, or, and not:
+
+age = 25
+is_student = False
+has_discount_code = True
+
+if (age < 18 or age > 65) and not is_student or has_discount_code:
+  print("Discount applies!")
+
+# () → আগে
+# not → তারপর
+# and → তারপর
+# or → শেষে
+
+# এই example-এ শেষ পর্যন্ত True হয়েছে কারণ has_discount_code = True
