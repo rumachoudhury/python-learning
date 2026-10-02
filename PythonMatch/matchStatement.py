@@ -69,3 +69,16 @@ match day:
     print("A weekday in May")
   case _:
     print("No match")
+
+# =====================================
+# Check age
+age = 20
+person = "student"
+
+match person:
+    case "student" if age >= 18:
+        print("Adult student")
+    case "student":
+        print("Young student")
+    case _:
+        print("Not a student")
