@@ -34,3 +34,23 @@ b = 33
 c = 500
 if a > b or a > c:
   print("At least one of the conditions is True")
+
+
+
+# ========================================
+# The not Operator
+# The not keyword is a logical operator, and is used to reverse the result of the conditional statement.
+
+# Test if a is NOT greater than b:
+
+# Python-এ not মানে “না”।
+
+# এটি condition-এর result উল্টে দেয়।
+
+# True → False
+# False → True
+
+a = 33
+b = 200
+if not a > b:
+  print("a is NOT greater than b")
