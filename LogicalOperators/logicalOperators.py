@@ -74,3 +74,27 @@ if (age < 18 or age > 65) and not is_student or has_discount_code:
 # or → শেষে
 
 # এই example-এ শেষ পর্যন্ত True হয়েছে কারণ has_discount_code = True
+
+
+# ===========================
+# User authentication check:
+
+username = "Tobias"
+password = "secret123"
+is_verified = True
+
+if username and password and is_verified:
+  print("Login successful")
+else:
+  print("Login failed")
+
+
+# 🧠 সহজ নিয়ম
+
+# and ব্যবহার করলে সবগুলো condition সত্য হতে হবে।
+
+# username আছে       ✅
+# password আছে       ✅
+# verified            ✅
+# -----------------------
+# Login successful    ✅
