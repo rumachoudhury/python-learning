@@ -82,3 +82,15 @@ match person:
         print("Young student")
     case _:
         print("Not a student")
+
+# =====================================
+# Number with extra condition
+number = 10
+
+match number:
+    case 10 if number > 5:
+        print("10 is greater than 5")
+    case 10:
+        print("The number is 10")
+    case _:
+        print("Different number")
