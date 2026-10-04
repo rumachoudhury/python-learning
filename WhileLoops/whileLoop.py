@@ -4,6 +4,9 @@
 # ExampleGet your own Python Server
 # Print i as long as i is less than 6:
 
+from doctest import Example
+
+
 i = 1
 while i < 6:
   print(i)
@@ -51,3 +54,16 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
+
+
+# ==============================
+# while + else examples.
+
+# Countdown
+count = 3
+
+while count > 0:
+    print(count)
+    count -= 1
+else:
+    print("Done!")
