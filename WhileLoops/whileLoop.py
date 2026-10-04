@@ -67,3 +67,17 @@ while count > 0:
     count -= 1
 else:
     print("Done!")
+
+# =================================
+# Find a number
+i = 1
+
+while i <= 5:
+    print(i)
+
+    if i == 5:
+        print("Found 5!")
+
+    i += 1
+else:
+    print("Loop finished")
