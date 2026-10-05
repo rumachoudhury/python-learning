@@ -35,3 +35,13 @@ numbers = [10, 20, 30, 40]
 
 for number in numbers:
     print(number)
+
+
+
+# ==============================
+# Example with a String
+
+# A string is also iterable:
+
+for letter in "Python":
+    print(letter)
