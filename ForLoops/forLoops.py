@@ -11,3 +11,19 @@
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
+
+# How it works
+
+# Python takes one item at a time from the list:
+
+# apple   → print
+# banana  → print
+# cherry  → print
+
+# Here:
+
+# fruits → the list
+# for → starts the loop
+# x → represents the current item
+# in → gets items from fruits
+# print(x) → prints each item
