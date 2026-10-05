@@ -45,3 +45,12 @@ for number in numbers:
 
 for letter in "Python":
     print(letter)
+
+
+# ==============================
+
+# Example with a Tuple
+colors = ("red", "green", "blue")
+
+for color in colors:
+    print(color)
