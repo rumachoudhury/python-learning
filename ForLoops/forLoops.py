@@ -27,3 +27,11 @@ for x in fruits:
 # x → represents the current item
 # in → gets items from fruits
 # print(x) → prints each item
+
+
+# ==============================
+# Example with Numbers
+numbers = [10, 20, 30, 40]
+
+for number in numbers:
+    print(number)
