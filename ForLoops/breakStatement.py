@@ -10,3 +10,14 @@ for x in fruits:
   print(x)
   if x == "banana":
     break
+
+# Output:
+
+# apple
+# banana
+# How it works
+# x = "apple" → print apple
+# x = "banana" → print banana
+# x == "banana" → True
+# break → stop the loop
+# "cherry" is never printed.
