@@ -39,3 +39,25 @@ for x in range(2, 6):
 # range(2, 6)
 # 2 → start
 # 6 → stop (not included)
+
+# ===================================
+# 3. Three Arguments
+for x in range(2, 10, 2):
+    print(x)
+
+# Output:
+
+# 2
+# 4
+# 6
+# 8
+# range(2, 10, 2)
+# 2 → start
+# 10 → stop (not included)
+# 2 → step (increase by 2)
+# Easy Rule
+# range(stop)
+# range(start, stop)
+# range(start, stop, step)
+
+# Remember: the stop number is never included.
