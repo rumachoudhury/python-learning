@@ -71,3 +71,31 @@ for x in range(2, 10, 2):
 
 for i in range(10):
   print(i)
+
+
+# Output:
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+
+# ===============================
+
+# Using List to Display Ranges
+# The range object is a data type that represents an immutable sequence of numbers, and it is not directly displayable.
+
+# Therefore, ranges are often converted to lists for display.
+
+# Example
+# Convert different ranges to lists:
+
+print(list(range(5)))
+print(list(range(1, 6)))
+print(list(range(5, 20, 3)))
