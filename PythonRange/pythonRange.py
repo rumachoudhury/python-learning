@@ -61,3 +61,13 @@ for x in range(2, 10, 2):
 # range(start, stop, step)
 
 # Remember: the stop number is never included.
+
+# =======================================
+# Using ranges
+# Ranges are often used in for loops to iterate over a sequence of numbers.
+
+# Example
+# Iterate over each value in a range:
+
+for i in range(10):
+  print(i)
