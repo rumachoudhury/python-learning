@@ -24,3 +24,18 @@ for x in range(5):
 # range(5)
 
 # means start at 0, stop before 5.
+
+# =================================
+# 2. Two Arguments
+for x in range(2, 6):
+    print(x)
+
+# Output:
+
+# 2
+# 3
+# 4
+# 5
+# range(2, 6)
+# 2 → start
+# 6 → stop (not included)
