@@ -30,3 +30,19 @@ print(x)
 # Ford
 
 # cars[0] gets the first item because Python indexing starts at 0.
+
+# ==============================
+# Python — Length of an Array (len())
+
+# The len() function returns the number of elements in an array or list.
+
+# Example 1 — Count Car Names
+cars = ["Ford", "Volvo", "BMW"]
+
+x = len(cars)
+
+print(x)
+
+# Output:
+
+# 3
