@@ -1,3 +1,4 @@
+# An array is a special variable, which can hold more than one value at a time.
 
 # An array is used to store multiple values in a single variable.
 
@@ -7,3 +8,25 @@
 cars = ["Ford", "Volvo", "BMW"]
 
 print(cars)
+
+
+# ====================
+# Python — Access Array Elements
+
+# You can access an array or list element by using its index number.
+
+
+
+
+# Example 1 — Get the First Item
+cars = ["Ford", "Volvo", "BMW"]
+
+x = cars[0]
+
+print(x)
+
+# Output:
+
+# Ford
+
+# cars[0] gets the first item because Python indexing starts at 0.
