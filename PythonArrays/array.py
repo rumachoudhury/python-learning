@@ -56,3 +56,16 @@ print(len(cars))
 # Output:
 
 # 4
+
+# =====================
+# Example 3 — Use len() in a Loop
+cars = ["Ford", "Volvo", "BMW"]
+
+for i in range(len(cars)):
+    print(cars[i])
+
+# Output:
+
+# Ford
+# Volvo
+# BMW
