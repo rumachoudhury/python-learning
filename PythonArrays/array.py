@@ -46,3 +46,13 @@ print(x)
 # Output:
 
 # 3
+
+# ==================
+# Example 2 — Print the Length Directly
+cars = ["Toyota", "Honda", "BMW", "Tesla"]
+
+print(len(cars))
+
+# Output:
+
+# 4
