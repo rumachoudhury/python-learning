@@ -10,7 +10,9 @@
 
 def greeting(name):
     print("Hello, " + name)
-    
+
+greeting("Ruma")
+
 # Remember
 
 # A module is a .py file.
