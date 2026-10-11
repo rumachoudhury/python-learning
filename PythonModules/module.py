@@ -5,7 +5,7 @@
 
 # 1. Create a Module
 
-# Create a file named mymodule.py:
+# Create a file named module.py:
 
 
 def greeting(name):
@@ -21,4 +21,18 @@ def greeting(name):
 
 # You can reuse those functions in another Python file.
 
-# Example: mymodule.py is the module, and greeting() is the function inside it.
+# Example:
+# module.py is the module, and greeting() is the function inside it.
+
+
+# =========================
+# The module can contain functions, as already described, but also variables of all types (arrays, dictionaries, objects etc):
+
+# Example
+# Save this code in the file named module.py
+
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
