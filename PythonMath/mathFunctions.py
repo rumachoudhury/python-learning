@@ -8,3 +8,11 @@ y = max(5, 10, 25)
 
 print(x)
 print(y)
+
+# =========================
+# The abs() function returns the absolute (positive) value of the specified number:
+
+# Example
+x = abs(-7.25)
+
+print(x)
