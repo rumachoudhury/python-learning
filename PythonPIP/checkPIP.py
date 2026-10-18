@@ -1,15 +1,11 @@
-# Python PIP
+# Using a Package
+# Once the package is installed, it is ready to use.
 
-# PIP is a package manager for Python.
-# It is used to install and manage Python packages.
+# Import the "camelcase" package into your project.
 
-# Check PIP version:
-# pip3 --version
+# Example
+# Import and use "camelcase":
 
-# Install a package:
-# pip3 install camelcase
-
-# Use the package:
 import camelcase
 
 c = camelcase.CamelCase()
@@ -17,30 +13,21 @@ c = camelcase.CamelCase()
 txt = "hello world"
 
 print(c.hump(txt))
+# Find Packages
+# Find more packages at https://pypi.org/.
 
-# Find Python packages:
-# https://pypi.org/
+# Remove a Package
+# Use the uninstall command to remove a package:
 
-# Remove a package:
-# pip3 uninstall camelcase
+# Example
+# Uninstall the package named "camelcase":
 
+# C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase
+# The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
 
-
-# ======================
-# Important
-
-# The W3Schools example uses Windows:
-
-# C:\Users\Your Name\...
-
-# Since you're using a Mac, you normally don't need to navigate to the Python Scripts folder. You can run:
-
-# pip3 --version
-
-# and:
-
-# pip3 install camelcase
-
-# If you want to actually practice this lesson, run:
-
-# pip3 install camelcase
+# Uninstalling camelcase-02.1:
+#   Would remove:
+#     c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camelcase-0.2-py3.6.egg-info
+#     c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camelcase\*
+# Proceed (y/n)?
+# Press y and the package will be removed.
