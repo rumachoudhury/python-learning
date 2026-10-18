@@ -1,33 +1,46 @@
+# Python PIP
 
-# PIP stands for Pip Installs Packages. It is Python’s package manager, used to install and manage additional Python packages (libraries).
+# PIP is a package manager for Python.
+# It is used to install and manage Python packages.
 
-# 1. Check if PIP is installed
-# pip --version
+# Check PIP version:
+# pip3 --version
 
-# On your Mac, you can also use:
+# Install a package:
+# pip3 install camelcase
+
+# Use the package:
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
+
+# Find Python packages:
+# https://pypi.org/
+
+# Remove a package:
+# pip3 uninstall camelcase
+
+
+
+# ======================
+# Important
+
+# The W3Schools example uses Windows:
+
+# C:\Users\Your Name\...
+
+# Since you're using a Mac, you normally don't need to navigate to the Python Scripts folder. You can run:
 
 # pip3 --version
-# 2. Install a package
 
-# For example, install requests:
+# and:
 
-# pip install requests
+# pip3 install camelcase
 
-# or:
+# If you want to actually practice this lesson, run:
 
-# pip3 install requests
-# 3. Upgrade a package
-# pip install --upgrade requests
-# 4. List installed packages
-# pip list
-
-# Simple example
-import requests
-
-response = requests.get("https://www.google.com")
-print(response.status_code)
-
-
-# Here, requests is not built into Python, so we install it using PIP.
-
-# If you're following the W3Schools Python PIP lesson, send me your next example and I'll explain it in the same simple style.
+# pip3 install camelcase
