@@ -38,5 +38,5 @@ if not type(x) is int:
 
 # TypeError() — raises an error related to an incorrect type.
 
-# Practice: Change x = "hello" to x = 10. What do you think will happen?
+# Practice: Change x = "hello" to x = 10. 
 
