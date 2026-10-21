@@ -28,3 +28,19 @@ if result is not None:
 # Output:
 
 # Result is ready
+
+
+# ================================
+# using is not instead:
+
+result = None
+if result is not None:
+  print("Result is ready")
+else:
+  print("No result yet")
+
+# Output:
+
+# No result yet
+
+# Why? Because result = None, the condition result is not None is False, so Python executes the else block.
