@@ -50,7 +50,7 @@
 # Example
 # Activate the virtual environment:
 
-# smacOS
+# macOS
 # $ source myfirstproject/bin/activate
 # After activation, your prompt will change to show that you are now working in the active environment:
 
@@ -73,3 +73,16 @@
 
 # macOS
 # (myfirstproject) ... $ pip install cowsay
+
+# ==================================================
+# Result
+# 'cowsay' is installed only in the virtual environment:
+
+# Collecting cowsay
+#   Downloading cowsay-6.1-py3-none-any.whl.metadata (5.6 kB)
+# Downloading cowsay-6.1-py3-none-any.whl (25 kB)
+# Installing collected packages: cowsay
+# Successfully installed cowsay-6.1
+
+# [notice] A new release of pip is available: 25.0.1 -> 25.1.1
+# [notice] To update, run: python.exe -m pip install --upgrade pip
