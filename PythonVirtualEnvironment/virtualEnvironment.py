@@ -86,3 +86,68 @@
 
 # [notice] A new release of pip is available: 25.0.1 -> 25.1.1
 # [notice] To update, run: python.exe -m pip install --upgrade pip
+
+# =============================================
+
+
+
+# Using Package
+# Now that the 'cowsay' module is installed in your virtual environment, lets use it to display a talking cow.
+
+# Create a file called test.py on your computer. You can place it wherever you want, but I will place it in the same location as the myfirstproject folder -not in the folder, but in the same location.
+
+# Open the file and insert these three lines in it:
+
+# Example
+# Insert two lines in test.py:
+
+# from PythonVirtualEnvironment import cowsay_example
+
+
+# Try it in your Python file
+
+# Create a file named cowsay_example.py and add:
+
+# import cowsay
+
+# cowsay.cow("Hello Ruma!")
+# cowsay.trex("I am learning Python!")
+# Then, try to execute the file while you are in the virtual environment:
+
+# Example
+# Execute test.py in the virtual environment:
+
+# macOS
+# (myfirstproject) ... $ python test.py
+
+
+# ============================================
+# rumachoudhury@MacBookAir python-learning % python3 -m venv .venv
+# print(f"Hello {name}")
+# rumachoudhury@MacBookAir python-learning % print(f"Hello {name}")
+# zsh: invalid mode specification
+# rumachoudhury@MacBookAir python-learning % source .venv/bin/activate
+# (.venv) rumachoudhury@MacBookAir python-learning % python -m pip install cowsay
+# Collecting cowsay
+#   Downloading cowsay-6.1-py3-none-any.whl.metadata (5.6 kB)
+# Downloading cowsay-6.1-py3-none-any.whl (25 kB)
+# Installing collected packages: cowsay
+# Successfully installed cowsay-6.1
+
+# [notice] A new release of pip is available: 26.2.1 -> 26.2.2
+# [notice] To update, run: pip install --upgrade pip
+# (.venv) rumachoudhury@MacBookAir python-learning % python -c "import cowsay; cowsay.cow('Hello Ruma!')"
+#   ___________
+# | Hello Ruma! |
+#   ===========
+#            \
+#             \
+#               ^__^
+#               (oo)\_______
+#               (__)\       )\/\
+#                   ||----w |
+#                   ||     ||
+# (.venv) rumachoudhury@MacBookAir python-learning % 
+
+
+
