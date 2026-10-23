@@ -60,3 +60,16 @@
 
 # macOS
 # (myfirstproject) ... $
+
+
+# ================================================
+# Install Packages
+# Once your virtual environment is activated, you can install packages in it, using pip.
+
+# We will install a package called 'cowsay':
+
+# Example
+# Install 'cowsay' in the virtual environment:
+
+# macOS
+# (myfirstproject) ... $ pip install cowsay
