@@ -151,3 +151,26 @@
 
 
 
+# =====================================================
+
+# Deactivate Virtual Environment
+# To deactivate the virtual environment use this command:
+
+# Example
+# Deactivate the virtual environment:
+
+# macOS
+# (myfirstproject) C:\Users\Your Name> deactivate
+
+
+# As a result, you are now back in the normal command line interface:
+
+# Result
+# Normal command line interface:
+
+# WindowsmacOS/Linux
+# C:\Users\Your Name>
+# If you try to execute the test.py file outside of the virtual environment, you will get an error because 'cowsay' is missing. It was only installed in the virtual environment:
+
+
+
