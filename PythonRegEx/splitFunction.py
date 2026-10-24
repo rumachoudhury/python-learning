@@ -7,7 +7,7 @@
 import re
 
 txt = "The rain in Spain"
-x = re.split("\s", txt)
+x = re.split(r"\s", txt)
 
 print(x)
 
