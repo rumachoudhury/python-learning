@@ -15,7 +15,7 @@ print(text.upper()) #output will be HELLO
 text = "HELLO"
 print(text.lower()) #output will be hello
 
-3. Replace part of a string
+# 3. Replace part of a string
 text = "I like to learn Python"
 print(text.replace("Python", "Java")) #output will be I like to learn something new everyday
 

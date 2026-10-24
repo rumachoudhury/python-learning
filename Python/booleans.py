@@ -52,7 +52,7 @@ print(myFunction()) #Call the function
 
 # ============================================
 # Print "YES!" if the function returns True, otherwise print "NO!":
-def myFunction()
+def myFunction():
    return True
 
 if myFunction():
