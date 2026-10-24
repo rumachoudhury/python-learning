@@ -18,6 +18,9 @@
 # Basic Try Except
 
 try:
+    class x:
+        ...
+
     print(x)
 except:
     print("An exception occurred")
